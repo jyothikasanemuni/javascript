@@ -1,0 +1,11 @@
+.projector{
+    width: 300px;
+    height: 330px;
+    border: 2px solid ;
+    margin: 2px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script>
+        function productadded(){
+            alert('your product is added to cart') //internal js
+        }
+    </script>
+</head>
+<body>
+    <a href="./cart.html">cart</a>
+    <div class="container">
+        <div class="projector">
+            <img src="https://m.media-amazon.com/images/I/51GTqntMW8L.jpg" width="200px" height="200px">
+            <h1>projector</h1>
+            <button onclick="alert('your product is added to cart')">Add to cart</button>  <!--inline js -->
+        </div>
+         <div class="projector">
+            <img src="https://m.media-amazon.com/images/I/51GTqntMW8L.jpg" width="200px" height="200px">
+            <h1>projector</h1>
+            <button onclick="productadded()">Add to cart</button>
+        </div>
+         <div class="projector">
+            <img src="https://m.media-amazon.com/images/I/51GTqntMW8L.jpg" width="200px" height="200px">
+            <h1>projector</h1>
+            <button onclick="productadded()">Add to cart</button>
+        </div>
+         <div class="projector">
+            <img src="https://m.media-amazon.com/images/I/51GTqntMW8L.jpg" width="200px" height="200px">
+            <h1>projector</h1>
+            <button onclick="productadded()">Add to cart</button>
+        </div>
+    </div>
+</body>
+</html>
